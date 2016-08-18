@@ -1,11 +1,10 @@
 ### Discover a Whole New Palette of SPSS Modeler Facebook Nodes
-![Nodes](img/SPSSModelerFacebookNodesPalette.png "Facebook Nodes")
+<p align="center">
+  <img src="img/SPSSModelerFacebookNodesPalette.png"/ width=80%>
+</p>
 
-* **Facebook Search**: Import Facebook public posts containing a specific keyword.
 * **Facebook Posts**: Import Facebook posts from a public page
 * **Facebook Comments**: Import Facebook comments from a public post.
-* **Facebook Likes**: Import a list of users who liked a Facebook post.
-* **Facebook User Info**: Get public information about a list of Facebook users.
 
 ---
 

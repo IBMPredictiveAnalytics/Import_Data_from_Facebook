@@ -1,9 +1,9 @@
-### 'Facebook Posts' Node for IBM SPSS Modeler – Step by Step Tutorial
+### 'Facebook Comments' Node for IBM SPSS Modeler – Step by Step Tutorial
 
-_Import Facebook posts from a public page directly in SPPS Modeler with this easy-to-use node._
+_Import Facebook comments from a public post directly in SPPS Modeler with this easy-to-use node._
 
 #### Description:
-This SPSS Modeler ‘source’ node allows you to import Facebook posts from a page easily. Simply install the node, paste your authentication key and choose the page and number of posts you would like to import. Afterwards you can start doing text analysis on social data and get insights for your business.
+This SPSS Modeler ‘source’ node allows you to import Facebook comments from a post easily. Simply install the node, paste your authentication key and choose the post and number of comments you would like to import. Afterwards you can start doing text analysis on social data and get insights for your business.
 
 #### Requirements:
 * R v2.15.2 (does not matter on Mac OS)
@@ -20,7 +20,7 @@ RFacebook: http://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf
 
 ---
 
-You can start with the stream ['**FacebookPosts_ExampleStream.str**'](FacebookPosts_ExampleStream.str) provided in this folder.
+You can start with the stream ['**FacebookComments_ExampleStream.str**'](FacebookComments_ExampleStream.str) provided in this folder.
 
 ###### 1\.  
 In SPSS Modeler v18.0 it is not possible to create proper ‘source’ nodes with R code. However it is made possible if you trick the software a bit: you just have to put a user input with fake fields before the Facebook node in order to start the stream. In this example we put a user input with: Field a ; Storage String ; Values “a” (see the screenshot below).
@@ -29,14 +29,13 @@ In SPSS Modeler v18.0 it is not possible to create proper ‘source’ nodes wit
 </p>
 
 ###### 2\.  
-Double click on the ‘Facebook Posts’ node.
+Double click on the ‘Facebook Comments’ node.
 <p align="center">
   <img src="img/2.png"/ width=80%>
 </p>
 Now fill the fields:
-* ‘Page ID’. You can find the Page ID on the URL of the page you would like to get posts from. http://facebook.com/This_is_the_Page_ID
-* ‘Number of posts desired’. The number you specify is the maximum number of posts returned.
-* Check or uncheck ‘Include non-admin posts’. You can choose to load only the posts published by the owner of the page or to include the posts published on the page by average users.
+* ‘Post ID’. For example, you can use a Post ID you got by using [‘Facebook Posts’](../Facebook Posts) node.
+* ‘Number of comments desired’. The number you specify is the maximum number of comments returned.
 * ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. You can easily get temporary (2 hours) or permanent access tokens; please read the [‘How to get a Facebook access token’](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial) tutorial.
 
 ###### 3\.

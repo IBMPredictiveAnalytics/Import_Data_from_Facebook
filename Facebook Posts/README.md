@@ -11,7 +11,7 @@ This SPSS Modeler ‘source’ node allows you to import Facebook posts from a p
 * SPSS Modeler ‘R essentials’ plugin
 
 ### Installation:
-In SPSS Modeler Click on '**Extensions**' --> '**Install Local Extenstions Bundle...**' and navigate to the \*.mpe file in this folder.  
+In SPSS Modeler Click on '**Extensions**' --> '**Install Local Extenstions Bundle...**' and navigate to the [FacebookPosts.mpe](FacebookPosts.mpe) file in this folder.  
 **_or..._**  
 In SPSS Modeler Click on '**Extensions**' --> '**Extensions Hub...**', search, '**Facebook Posts**' and click '**Install...**'.
 
@@ -19,8 +19,26 @@ In SPSS Modeler Click on '**Extensions**' --> '**Extensions Hub...**', search, '
 
 You can start with the stream ['**FacebookPosts_ExampleStream.str**'](FacebookPosts_ExampleStream.str) provided in this folder.
 
-1. In SPSS Modeler v18.0 it is not possible to create proper ‘source’ nodes with R code. However it is made possible if you trick the software a bit: you just have to put a user input with fake fields before the Facebook node in order to start the stream. In this example we put a user input with: Field a ; Storage String ; Values “a” (see the screenshot below).
+###### 1\.  
+In SPSS Modeler v18.0 it is not possible to create proper ‘source’ nodes with R code. However it is made possible if you trick the software a bit: you just have to put a user input with fake fields before the Facebook node in order to start the stream. In this example we put a user input with: Field a ; Storage String ; Values “a” (see the screenshot below).
+<center><img src="img/1.png" width=80% /></center><br>
 
-  <center><img src="img/1.png" width=80% /></center>
+###### 2\.  
+Double click on the ‘Facebook Posts’ node.
+<center><img src="img/2.png" style="max-width:80%"/></center><br>
+Now fill the fields:
+* ‘Page ID’. You can find the Page ID on the URL of the page you would like to get posts from. http://facebook.com/This_is_the_Page_ID
+* ‘Number of posts desired’. The number you specify is the maximum number of posts returned.
+* Check or uncheck ‘Include non-admin posts’. You can choose to load only the posts published by the owner of the page or to include the posts published on the page by average users.
+* ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. You can easily get temporary (2 hours) or permanent access tokens; please read the [‘How to get a Facebook access token’](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial) tutorial.
 
-2. asdf
+###### 3\.
+Add an output node after the ‘Facebook Posts’ node, in order to visualize the data you gathered. For example you can start with a ‘Table’.
+Click on the table and run the stream (see below).  
+<center><img src="img/3.png" style="max-width:80%" /></center><br>
+Here is what we obtain:
+<center><img src="img/4.png" style="max-width:80%" /></center><br>
+
+###### 4\.
+Now, it’s your turn to gather social data directly into SPSS and start text mining customer opinions.
+<center><img src="img/5.png" style="max-width:40%" /></center><br>

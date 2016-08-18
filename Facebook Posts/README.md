@@ -37,7 +37,9 @@ Add an output node after the ‘Facebook Posts’ node, in order to visualize th
 Click on the table and run the stream (see below).  
 <center><img src="img/3.png" style="max-width:80%" /></center><br>
 Here is what we obtain:
-<center><img src="img/4.png" style="max-width:80%" /></center><br>
+<p align="center">
+  <img src="img/4.png"/ style="max-width:40%" width=80%>
+</p>
 
 ###### 4\.
 Now, it’s your turn to gather social data directly into SPSS and start text mining customer opinions.

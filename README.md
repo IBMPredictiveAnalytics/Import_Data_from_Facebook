@@ -1,6 +1,6 @@
 ### Discover a Whole New Palette of SPSS Modeler Facebook Nodes
 <p align="center">
-  <img src="img/SPSSModelerFacebookNodesPalette.png"/ width=80%>
+  <img src="img/FacebookNodesPalette.png"/ width=80%>
 </p>
 
 * **Facebook Posts**: Import Facebook posts from a public page

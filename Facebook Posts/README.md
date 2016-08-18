@@ -41,4 +41,6 @@ Here is what we obtain:
 
 ###### 4\.
 Now, it’s your turn to gather social data directly into SPSS and start text mining customer opinions.
-<center><img src="img/5.png" style="max-width:40%" /></center><br>
+<p align="center">
+  <img src="img/5.png"/ style="max-width:40%" width=40%>
+</p>

@@ -21,11 +21,15 @@ You can start with the stream ['**FacebookPosts_ExampleStream.str**'](FacebookPo
 
 ###### 1\.  
 In SPSS Modeler v18.0 it is not possible to create proper ‘source’ nodes with R code. However it is made possible if you trick the software a bit: you just have to put a user input with fake fields before the Facebook node in order to start the stream. In this example we put a user input with: Field a ; Storage String ; Values “a” (see the screenshot below).
-<center><img src="img/1.png" width=80% /></center><br>
+<p align="center">
+  <img src="img/1.png"/ width=80%>
+</p>
 
 ###### 2\.  
 Double click on the ‘Facebook Posts’ node.
-<center><img src="img/2.png" style="max-width:80%"/></center><br>
+<p align="center">
+  <img src="img/2.png"/ width=80%>
+</p>
 Now fill the fields:
 * ‘Page ID’. You can find the Page ID on the URL of the page you would like to get posts from. http://facebook.com/This_is_the_Page_ID
 * ‘Number of posts desired’. The number you specify is the maximum number of posts returned.
@@ -35,14 +39,16 @@ Now fill the fields:
 ###### 3\.
 Add an output node after the ‘Facebook Posts’ node, in order to visualize the data you gathered. For example you can start with a ‘Table’.
 Click on the table and run the stream (see below).  
-<center><img src="img/3.png" style="max-width:80%" /></center><br>
+<p align="center">
+  <img src="img/3.png"/ width=80%>
+</p>
 Here is what we obtain:
 <p align="center">
-  <img src="img/4.png"/ style="max-width:40%" width=80%>
+  <img src="img/4.png"/ width=80%>
 </p>
 
 ###### 4\.
 Now, it’s your turn to gather social data directly into SPSS and start text mining customer opinions.
 <p align="center">
-  <img src="img/5.png"/ style="max-width:40%" width=40%>
+  <img src="img/5.png"/ width=40%>
 </p>

@@ -37,7 +37,7 @@ Click on the table and run the stream.
 </p>
 Here is what we obtain:
 <p align="center">
-  <img src="img/output.png"/ width=80%>
+  <img src="img/Output.png"/ width=80%>
 </p>
 
 ###### 4\.

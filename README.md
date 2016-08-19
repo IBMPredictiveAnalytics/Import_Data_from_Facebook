@@ -1,12 +1,21 @@
 ### Discover a Whole New Palette of SPSS Modeler Facebook Nodes
 <p align="center">
-  <img src="img/FacebookNodesPalette.png"/ width=20%>
+  <img src="img/FacebookNodesPalette.png"/ width=400px>
 </p>
 
 * **Facebook Posts**: Import Facebook posts from a public page
 * **Facebook Comments**: Import Facebook comments from a public post.
+* **Facebook Reactions**: Import Facebook reactions to a list of public post.
 
 ---
+
+### Quickstart
+
+1. You need a Facebook access token for all request. If you don't have one already, read [this tutorial](#how-to-get-a-facebook-access-token--step-by-step-tutorial).
+
+2. Download and install the [Facebook.mpe file](Facebook.mpe) in SPSS Modeler.
+
+3. Download the [example stream](ExampleStream.mpe) to get started.
 
 ### How to Get a Facebook Access Token – Step by Step Tutorial
 

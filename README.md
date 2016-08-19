@@ -13,9 +13,12 @@
 
 1. You need a Facebook access token for all request. If you don't have one already, read [this tutorial](#how-to-get-a-facebook-access-token--step-by-step-tutorial).
 
-2. Download and install the [Facebook.mpe file](Facebook.mpe) in SPSS Modeler or search for 'Facebook' in the Predictive Extensions Hub ([detailed instructions](#installation)).
+2. Download and install the [Facebook.mpe file](Facebook.mpe) in SPSS Modeler or search for 'Facebook' in the Predictive Extensions Hub (klick [here](#installation) for detailed instructions).
 
 3. Download the [example stream](ExampleStream.str) to get started.
+<p align="center">
+  <img src="img/ExampleStream.png"/ width=50%>
+</p>
 
 ### How to Get a Facebook Access Token – Step by Step Tutorial
 

@@ -48,13 +48,13 @@ If you click the blue '**i**' right left to the token and then on '**Open in Acc
 With this token you could start now working with the SPSS Modeler nodes or you could continue to get tokens that are longer valid.
 
 9. Go to this URL with your browser after replacing the fields with the App ID and App Secret from step 5 and your short-lived token from step 8:  
-````
-https://graph.facebook.com/oauth/access_token
-?client_id=YOUR_APP_ID
-&client_secret=YOUR_APP_SECRET
-&grant_type=fb_exchange_token
-&fb_exchange_token=YOUR_SHORT_LIVED_ACCESS_TOKEN
-````
+    ````
+    https://graph.facebook.com/oauth/access_token
+    ?client_id=YOUR_APP_ID
+    &client_secret=YOUR_APP_SECRET
+    &grant_type=fb_exchange_token
+    &fb_exchange_token=YOUR_SHORT_LIVED_ACCESS_TOKEN
+    ````
 
 10. The response will be in the schema of `access_token=YOUR_LONG_LIVED_ACCESS_TOKEN&expires=5184000`  
 When you copy your long-lived token make sure to exclude the `access_token=` and the `expires=` and only copy the part in between.

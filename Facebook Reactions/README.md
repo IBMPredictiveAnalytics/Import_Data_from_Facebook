@@ -28,7 +28,7 @@ Double click on the ‘Facebook Reactions’ node.
 </p>
 Now fill the fields:
 * ‘Post IDs’. Select the column with the Post IDs that you got from the ['Facebook Posts' node](../Facebook Posts).
-* ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. Follow the [‘tutorial’](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial).
+* ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. Follow the [tutorial](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial).
 
 ###### 4\.
 Add an output node after the ‘Facebook Posts’ node, in order to visualize the data you gathered. For example you can start with a ‘Table’.

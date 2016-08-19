@@ -26,7 +26,7 @@ Double click on the 'Facebook Comments' node.
 Now fill the fields:
 * ‘Post ID’. For example, you can use a Post ID you got by using the [‘Facebook Posts’](../Facebook Posts) node.
 * ‘Number of comments desired’. The number you specify is the maximum number of comments returned.
-* ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. Follow the [‘tutorial’](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial).
+* ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. Follow the [tutorial](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial).
 
 ###### 3\.
 Add an output node after the ‘Facebook Posts’ node, in order to visualize the data you gathered. For example you can start with a ‘Table’.

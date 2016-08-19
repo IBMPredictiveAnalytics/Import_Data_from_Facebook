@@ -27,7 +27,7 @@ Now fill the fields:
 * ‘Page ID’. You can find the Page ID on the URL of the page you would like to get posts from. http://facebook.com/This_is_the_Page_ID
 * ‘Number of posts desired’. The number you specify is the maximum number of posts returned.
 * Check or uncheck ‘Include non-admin posts’. You can choose to load only the posts published by the owner of the page or to include the posts published on the page by average users.
-* ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. Follow the [‘tutorial’](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial).
+* ‘Access Token’. To access data from Facebook you need to have an authentication key that enables you the access via the API. Follow the [tutorial](https://github.com/jonnyenglish/SPSSFacebook#how-to-get-a-facebook-access-token--step-by-step-tutorial).
 
 ###### 3\.
 Add an output node after the ‘Facebook Posts’ node, in order to visualize the data you gathered. For example you can start with a ‘Table’.

@@ -13,9 +13,9 @@
 
 1. You need a Facebook access token for all request. If you don't have one already, read [this tutorial](#how-to-get-a-facebook-access-token--step-by-step-tutorial).
 
-2. Download and install the [Facebook.mpe file](Facebook.mpe) in SPSS Modeler.
+2. Download and install the [Facebook.mpe file](Facebook.mpe) in SPSS Modeler or search for 'Facebook' in the Predictive Extensions Hub ([detailed instructions](#installation)).
 
-3. Download the [example stream](ExampleStream.mpe) to get started.
+3. Download the [example stream](ExampleStream.str) to get started.
 
 ### How to Get a Facebook Access Token – Step by Step Tutorial
 
@@ -62,3 +62,16 @@ If you paste this long-lived token to the [Access Token Tool](https://developers
 11. Go back to the [Graph API Explorer](https://developers.facebook.com/tools/explorer/) and paste your long-lived access token in the access token field. This was enough to convert your long-lived access token into a permanent access token. Double check with the blue '**i**' and '**Open in Access Token Tool**' again. In the field of _Expires_ it now should say '**Never**'.
 
   **Congrats you long-lived access token is now permanently valid. With this token you now can start using the SPSS Modeler nodes forever** (Or as long as Facebook doesn't change the guidelines.)
+
+### Requirements
+* R version that suits your SPSS Modeler version (Min. v2.15.2; does not matter on Mac OS)
+* SPSS Modeler v18.0 or later
+* SPSS Modeler ‘R essentials’ plugin
+
+### Installation
+In SPSS Modeler Click on '**Extensions**' --> '**Install Local Extenstions Bundle...**' and navigate to the [FacebookPosts.mpe](FacebookPosts.mpe) file in this folder.  
+**_or..._**  
+In SPSS Modeler Click on '**Extensions**' --> '**Extensions Hub...**', search, '**Facebook Posts**' and click '**Install...**'.
+
+### R packages used
+RFacebook: http://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf

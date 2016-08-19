@@ -5,7 +5,7 @@
 
 * **Facebook Posts**: Import Facebook posts from a public page
 * **Facebook Comments**: Import Facebook comments from a public post.
-* **Facebook Reactions**: Import Facebook reactions to a list of public post.
+* **Facebook Reactions**: Import Facebook reactions to a list of public posts.
 
 ---
 

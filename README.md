@@ -64,7 +64,7 @@ If you paste this long-lived token to the [Access Token Tool](https://developers
 
 11. Go back to the [Graph API Explorer](https://developers.facebook.com/tools/explorer/) and paste your long-lived access token in the access token field. This was enough to convert your long-lived access token into a permanent access token. Double check with the blue '**i**' and '**Open in Access Token Tool**' again. In the field of _Expires_ it now should say '**Never**'.
 
-  **Congrats you long-lived access token is now permanently valid. With this token you now can start using the SPSS Modeler nodes forever** (Or as long as Facebook doesn't change the guidelines.)
+  **Congrats your long-lived access token is now permanently valid. With this token you now can start using the SPSS Modeler nodes forever** (Or as long as Facebook doesn't change the guidelines.)
 
 ### Requirements
 * R version that suits your SPSS Modeler version (Min. v2.15.2; does not matter on Mac OS)

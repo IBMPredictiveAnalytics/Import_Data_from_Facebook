@@ -72,7 +72,7 @@ If you paste this long-lived token to the [Access Token Tool](https://developers
 * SPSS Modeler ‘R essentials’ plugin
 
 ### Installation
-In SPSS Modeler Click on '**Extensions**' --> '**Install Local Extenstions Bundle...**' and navigate to the [FacebookPosts.mpe](FacebookPosts.mpe) file in this folder.  
+In SPSS Modeler Click on '**Extensions**' --> '**Install Local Extenstions Bundle...**' and navigate to the [Facebook.mpe](Facebook.mpe) file in this folder.  
 **_or..._**  
 In SPSS Modeler Click on '**Extensions**' --> '**Extensions Hub...**', search, '**Facebook Posts**' and click '**Install...**'.
 

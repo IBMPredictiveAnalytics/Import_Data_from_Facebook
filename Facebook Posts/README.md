@@ -10,7 +10,7 @@ This SPSS Modeler ‘source’ node allows you to import Facebook posts from a p
 
 ---
 
-You can start with the stream ['**FacebookPosts_ExampleStream.str**'](../ExampleStream.str) provided in this repository.
+You can start with the stream ['**ExampleStream.str**'](../ExampleStream.str) provided in this repository.
 
 ###### 1\.  
 In SPSS Modeler v18.0 it is not possible to create proper ‘source’ nodes with R code. However it is made possible if you trick the software a bit: you just have to put a user input with fake fields before the Facebook node in order to start the stream. In this example we use a user input with: Field a (see the screenshot below).

@@ -10,7 +10,7 @@ This SPSS Modeler process node allows you to import Facebook reactions of a publ
 
 ---
 
-You can start with the stream ['**FacebookPosts_ExampleStream.str**'](../ExampleStream.str) provided in this repository.
+You can start with the stream ['**ExampleStream.str**'](../ExampleStream.str) provided in this repository.
 
 ###### 1\.  
 In order to get a list of Facebook Post IDs I suggest to use the ['Facebook Posts' node](../Facebook Posts). Follow ['these steps](../Facebook Posts/README.md) first.
